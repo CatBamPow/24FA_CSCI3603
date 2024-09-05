@@ -1,0 +1,9 @@
+//Task 1
+if __name__ == '__main__':
+    n = int(input())
+i = 0
+while i in range (0, n):
+        print(i ** 2)
+        i = i + 1
+
+//Task 2
