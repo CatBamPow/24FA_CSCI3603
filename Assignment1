@@ -7,3 +7,15 @@ while i in range (0, n):
         i = i + 1
 
 //Task 2
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+a = list(arr)
+a.sort()
+runnerUp=min(a)
+for i in a:
+    if i > runnerUp and i < max(a):
+        runnerUp = i
+print(runnerUp)
+
+//Task 3
